@@ -22,7 +22,6 @@ class Shirt:
         self.style = style
         self.price = price
     
-    #@property
     def get_price(self):
         """The get_price method returns the price of a Shirt object
 
@@ -32,7 +31,6 @@ class Shirt:
         """
         return self.price
 
-   # @get_price.setter
     def change_price(self, new_price):
         """The change_price method changes the price of a Shirt object
 
