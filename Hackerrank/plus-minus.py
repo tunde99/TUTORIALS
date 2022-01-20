@@ -20,13 +20,13 @@ fraction on a new line with  places after the decimal.
 
 def plusMinus(arr):
     """
-    input arr: input array of fixed length
+    arr: input array of fixed length
     n: length of the array
     """
     pos = 0
     neg = 0
     zero = 0
-    
+
     for num in arr:
         if num > 0:
             pos += 1
